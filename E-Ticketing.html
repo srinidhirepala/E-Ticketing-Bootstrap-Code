@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticketing</title>
+
+    <style>
+        body {
+            background-color: lavender;
+            text-align: center;
+        }
+        h1, h2 {
+            color: red;
+        }
+        table {
+            margin: 20px auto;
+            width: 70%;
+            border: 3px solid black;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .navbar-custom {
+            background-color: #343a40;
+        }
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .nav-link {
+            color: white;
+        }
+        img {
+            float: left;
+            margin-right: 15px;
+        }
+        .buy-button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">
+            <img src="https://via.placeholder.com/50" alt="Home Icon" width="40" height="40"> E-Ticketing
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bus Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bookings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <h1>E-TICKETING SYSTEM</h1>
+        <h2>B.V.R.T.C Ticket Bookings</h2>
+        <marquee>!! Special Discounts on Group Bookings !!</marquee>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Ticket Type</th>
+                <th>Route</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Red Bus</td>
+                <td>Hyderabad to Bangalore</td>
+                <td>₹500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Blue Bus</td>
+                <td>Hyderabad to Chennai</td>
+                <td>₹800</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Orange Bus</td>
+                <td>Hyderabad to Mumbai</td>
+                <td>₹600</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pink Bus</td>
+                <td>Hyderabad to Delhi</td>
+                <td>₹1200</td>
+            </tr>
+        </table>
+        <form action="Cart.html">
+            <input class="buy-button" type="submit" value="CLICK TO BUY">
+        </form>
+    </div>
+    <div>
+        <form action="Login.html">
+            <input type="submit" value="LOGOUT">
+        </form>
+        <form action="Signout.html">
+            <input type="submit" value="SIGNOUT">
+        </form>
+    </div>
+</body>
+</html>
